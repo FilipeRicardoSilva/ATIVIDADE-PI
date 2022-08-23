@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(144, 250, 247);color: rgb(15, 5, 97);">
+
+    <div id="Cabeçalho">
+    <!--Cabeçalho-->
+    <h1 style="display:block;">Calculo da Média do aluno </h1>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJUbMHqHCijXi_H66skQJi_bdZa7ToRnpQjEAwpnFL609EjwUl7K1BYNoDMMtiNT_1QaM&usqp=CAU" 
+    alt="Logo da SPTECH"
+    width="300pix">
+
+    <img src="https://media-exp1.licdn.com/dms/image/D4E1BAQEErl4zFIEyaQ/company-background_10000/0/1655158292692?e=2147483647&v=beta&t=g63AR4okvok4M8uRKBAI_waY4_Hsn5YkqK0pVPf2XKM"
+     alt="#SOUSPTECH"
+     width="500pix" height="300pix"> <br>
+
+
+    <h2>A Faculdade de Técnlogia <b><U>SPTECH</U></b> tem como prioridade a formação qualificada<br> 
+        dos seus alunos e integração no mercado de trabalho por meio do Projeto <u><b>simbionte</b></u>, <br>
+        em parceria com muita das melhores empresas de tecnologia do <I>Brasil</I>,dessa forma  <br>
+        os métodos avaliativos são rigorosos</P> </h2>  <br>
+
+        <h4>VERIFIQUE SUA MÉDIA!!</h4>
+
+
+
+
+
+
+    <!--fim Cabeçalho-->
+</div>
+<!--botões e alinhamento-->
+
+
+
+  
+<B><P> Informar Nota P1</P> <br>
+<input id="input_nota1" type="number">
+<P> Informar Nota P1</P> <br>
+<input id="input_nota2" type="number">
+<P> Informar Nota P1</P> <br>
+<input id="input_nota3" type="number"> <br>
+<button onclick ='Calcular()'>Ver valor por amigo</button></B><br>
+  
+
+
+<H2><B><div  id= 'div_media'></div></B></H2>
+
+
+    
+</body>
+</html> 
+<SCript>
+    function Calcular(){
+        var Media= ((Number(input_nota1.value) + Number(input_nota2.value) + Number(input_nota3.value))/3)
+        
+    
+       
+         div_media.innerHTML =`Sua Média de Provas é: ${Number(Media)} `
+    }
+
+
+
+
+
+
+</SCript>
+    
+</body>
+</html>
