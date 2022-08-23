@@ -1,2 +1,3 @@
 # ATIVIDADE-PI
-Comandos para tarefa em HTML - PESQUISA E INOVAÇÃO 
+Comandos para tarefa em HTML - PESQUISA E INOVAÇÃO - MODIFICAÇÃO EM AULA
+
